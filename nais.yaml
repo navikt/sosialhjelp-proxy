@@ -13,12 +13,7 @@ spec:
   image: {{image}}
   port: 8080
   ingresses:
-{{#each ingresses}}
-    - "{{this}}"
-{{/each}}
-  prometheus:
-    enabled: false
-    path: /prometheus
+    - "https://digisos-test.dev.nav.no"
   liveness:
     path: /internal/isAlive
     initialDelay: 20
