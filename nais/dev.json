@@ -1,5 +1,4 @@
 {
   "domene_pa_innsiden": ".dev-fss-pub.nais.io",
-  "domene_pa_utsiden": ".dev.nav.no",
-  "ingresses": ["https://sosialhjelp.dev.nav.no"]
+  "domene_pa_utsiden": ".dev.nav.no"
 }
